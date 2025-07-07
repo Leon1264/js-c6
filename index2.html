@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods activity 2</title>
+</head>
+<body>
+    <h1>Methods in JS</h1>
+    <p id="myJoin"></p>
+    <p id="myPop1"></p>
+    <p id="myPop2"></p>
+    <p id="myPop3"></p>
+    <script>
+        var fruits =["apple","banana","orange","grape","papaya"]
+        document.getElementById("myJoin").innerHTML = "Joining arrays:   " + fruits.join("=")
+        document.getElementById("myPop1").innerHTML = fruits
+        fruits.pop()
+        document.getElementById("myPop2").innerHTML = fruits
+        fruits.pop()
+        document.getElementById("myPop3").innerHTML = fruits
+
+    </script>
+</body>
+</html>
